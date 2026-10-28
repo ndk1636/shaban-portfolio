@@ -5,15 +5,21 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        display: ["var(--font-jakarta)", "Inter", "sans-serif"],
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"]
+        display: ["var(--font-serif)", "Georgia", "serif"],
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "ui-monospace", "monospace"]
       },
-      colors: { ink:"#0B1120", brand:"#4F46E5", brandDark:"#3730A3", aqua:"#14B8A6", paper:"#F6F7FB" },
-      boxShadow: {
-        soft:"0 24px 70px -20px rgba(15,23,42,.18)",
-        card:"0 10px 30px -12px rgba(15,23,42,.12)",
-        glow:"0 0 0 1px rgba(79,70,229,.12), 0 20px 60px -25px rgba(79,70,229,.35)"
-      }
+      colors: {
+        ink: "#12140D",
+        paper: "#FFFFFF",
+        mist: "#F2F4EC",
+        line: "#DCDFD2",
+        signal: "#1E7A49",
+        signalSoft: "#E4EFE3",
+        flag: "#B8763A",
+        flagSoft: "#F3E8DA"
+      },
+      maxWidth: { prose: "38rem" }
     }
   },
   plugins: []
